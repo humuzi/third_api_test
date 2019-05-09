@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="application.properties"/>
+    <typeAliases>
+        <typeAlias type="com.maycur.thirdapitest.mapper"/>
+    </typeAliases>
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${database.driver}"/>
+                <property name="url" value="database.url"/>
+                <property name="username" value="database.username"/>
+                <property name="password" value="database.password"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <package name="com.maycur.thirdapitest.mapper"/>
+    </mappers>
+</configuration>
