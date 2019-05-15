@@ -1,12 +1,12 @@
 package com.maycur.thirdapitest.steps.ctrip;
 
 
-import com.maycur.thirdapitest.runtime.LoginUser;
+
 import io.restassured.response.Response;
 import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Component;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -20,9 +20,45 @@ import com.maycur.thirdapitest.steps.auth.*;
  */
 @Component
 public class CtripStepDef {
-//    LoginUser loginUser = new LoginUser();
-//    @Autowired private LoginUser loginUser;
+
     AuthStepDef auth = new AuthStepDef();
+
+    /**
+     * 设置subAccount例外人员
+     */
+    @Test(groups = {"humuzi"})
+    public void setSubAccountException(){
+        JSONObject jsonObject = new JSONObject().put("memberDtos","[\n" +
+                "{\n" +
+                "\"entCode\":\"EC1704131UT5KW00\",\n" +
+                "\"unificationSwitchType\":\"SUB_ACCOUNT_UNIFICATION\",\n" +
+                "\"userCode\":\"UI18040313768S1W\",\n" +
+                "\"name\":\"小黑\",\n" +
+                "\"subAccount\":\"Mango\",\n" +
+                "\"confirmPerson\":null,\n" +
+                "\"confirmPerson2\":null\n" +
+                "},\n" +
+                "{\n" +
+                "\"entCode\":\"EC1704131UT5KW00\",\n" +
+                "\"unificationSwitchType\":\"SUB_ACCOUNT_UNIFICATION\",\n" +
+                "\"userCode\":\"UI1803221NEY7W41\",\n" +
+                "\"name\":\"小白\",\n" +
+                "\"subAccount\":\"Cheery\",\n" +
+                "\"confirmPerson\":null,\n" +
+                "\"confirmPerson2\":null\n" +
+                "}\n" +
+                "]")
+                .put("type","SUB_ACCOUNT_UNIFICATION");
+
+        Response response = given().accept("application/json")
+                .header("entCode","EC1704131UT5KW00")
+                .header("tokenId",auth.adminLogin().getTokenId())
+                .body(jsonObject.toString())
+                .post("https://dev.maycur.com/api/web/ctrip/exception_member/SUB_ACCOUNT_UNIFICATION");
+
+        assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
+        assertThat(response.getBody().asString(),response.getBody().jsonPath().get("code"),equalTo("ACK"));
+    }
 
     /**
      * 更新携程员工Extend_property
@@ -71,6 +107,66 @@ public class CtripStepDef {
                 .body(jsonObject.toString()).post("https://dev.maycur.com/api/web/ctrip/syncEmployees");
 
         assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
+    }
+
+    /**
+     * 更新携程配置
+     */
+
+    @Test(groups = {"humuzi"})
+    public void changeConfigure(){
+        JSONObject jsonObject = new JSONObject().put("priceTypes","[]")
+                .put("cityTypes","[]")
+                .put("reconciliations","[1,2,4]")
+                .put("notificationEmail",true)
+                .put("restrictDomesticClass",true)
+                .put("employeeProps","[\n" +
+                        "{\n" +
+                        "\"code\":\"subsidiary\",\n" +
+                        "\"name\":\"业务实体名称\",\n" +
+                        "\"selected\":true\n" +
+                        "},\n" +
+                        "{\n" +
+                        "\"code\":\"department\",\n" +
+                        "\"name\":\"部门名称\",\n" +
+                        "\"selected\":true\n" +
+                        "}\n" +
+                        "]")
+                .put("journeyProps","\"journeyProps\":[\n" +
+                        "{\n" +
+                        "\"code\":\"subsidiary\",\n" +
+                        "\"name\":\"业务实体名称\",\n" +
+                        "\"selected\":true\n" +
+                        "}\n" +
+                        "]")
+                .put("extendJourneyDate",true)
+                .put("forwardDays",2)
+                .put("postponeDays",3)
+                .put("empOrderTypes","[1,2]")
+                .put("unifyReimbursePeriod",true)
+                .put("settlementSettingBits",7)
+                .put("unifyReimburseSettingBits",7)
+                .put("restrictHotelAvgPrice",true)
+                .put("restrictFlightSeatClass",true)
+                .put("restrictFlightBookingCount",1)
+                .put("restrictIntlClass",true)
+                .put("bookForOthers",3)
+                .put("restrictFlightPrice",false)
+                .put("restrictHotelPrice",false)
+                .put("restrictTrainPrice",false)
+                .put("restrictFlightCity",false)
+                .put("restrictHotelCity",false)
+                .put("restrictTrainCity",false)
+                .put("authorizeType",1);
+
+        Response response = given().accept("application/json")
+                .header("entCode","EC1704131UT5KW00")
+                .header("tokenId",auth.adminLogin().getTokenId())
+                .body(jsonObject.toString())
+                .post("https://dev.maycur.com/api/web/ctrip/changeConfigurableAttr");
+
+        assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
+        assertThat(response.getBody().asString(),response.getBody().jsonPath().get("code"),equalTo("ACK"));
     }
 
 

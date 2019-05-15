@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e48938-8928-4511-93b6-3d291e0d47f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/MyRetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/SpringApplicationListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/auth/AuthStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/auth/AuthStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="713">
+              <caret line="162" column="35" selection-start-line="162" selection-start-column="35" selection-end-line="162" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+            <state relative-caret-position="306">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -131,9 +119,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mapper/SpringApplicationListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/MyRetry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/RetryListener.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" />
       </list>
     </option>
   </component>
@@ -282,45 +270,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -371,24 +320,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/Lee/Documents/third_api_test/testng.xml">
-    <configuration name="AuthStepDef.AdminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="third_api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maycur.thirdapitest.steps.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.steps.auth.AuthStepDef" />
-      <option name="METHOD_NAME" value="AdminLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AuthStepDef.adminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="third_api_test" />
       <extension name="coverage">
@@ -424,6 +355,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CtripStepDef.setSubAccountException" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.steps.ctrip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.ctrip" />
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.steps.ctrip.CtripStepDef" />
+      <option name="METHOD_NAME" value="setSubAccountException" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CtripStepDef.updateExtendProperty" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="third_api_test" />
       <extension name="coverage">
@@ -453,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AuthStepDef.AdminLogin" />
       <item itemvalue="TestNG.CtripStepDef.updateExtendProperty" />
       <item itemvalue="TestNG.AuthStepDef.adminLogin" />
       <item itemvalue="TestNG.CtripStepDef" />
       <item itemvalue="TestNG./Users/Lee/Documents/third_api_test/testng.xml" />
+      <item itemvalue="TestNG.CtripStepDef.setSubAccountException" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/Lee/Documents/third_api_test/testng.xml" />
+        <item itemvalue="TestNG.CtripStepDef.setSubAccountException" />
         <item itemvalue="TestNG.CtripStepDef.updateExtendProperty" />
         <item itemvalue="TestNG.AuthStepDef.adminLogin" />
         <item itemvalue="TestNG.CtripStepDef" />
-        <item itemvalue="TestNG.AuthStepDef.AdminLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -502,20 +451,11 @@
       <workItem from="1557489441628" duration="717000" />
       <workItem from="1557490170834" duration="830000" />
       <workItem from="1557673187768" duration="1879000" />
-      <workItem from="1557714111916" duration="7184000" />
+      <workItem from="1557714111916" duration="11388000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthStepDef_adminLogin - 2019.05.12 at 23h 18m 40s.xml">
-      <configuration name="AuthStepDef.adminLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.12 at 23h 20m 46s.xml">
-      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.12 at 23h 23m 10s.xml">
-      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.12 at 23h 29m 03s.xml">
       <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -537,9 +477,18 @@
     <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.15 at 15h 08m 36s.xml">
       <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.15 at 15h 29m 29s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripStepDef_setSubAccountException - 2019.05.15 at 16h 38m 24s.xml">
+      <configuration name="CtripStepDef.setSubAccountException" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.15 at 16h 38m 55s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98495000" />
+    <option name="totallyTimeSpent" value="102699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,17 +500,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1124" y="60" width="1812" height="1352" extended-state="0" />
+    <frame x="697" y="23" width="1812" height="1352" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19943503" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19943503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299373" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3031528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3031528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53172207" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,7 +518,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976827" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.328877" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32821342" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32976827" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32976827" />
@@ -1009,16 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/SpringApplicationListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1049,8 +988,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+        <state relative-caret-position="306">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="162" column="35" selection-start-line="162" selection-start-column="35" selection-end-line="162" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
