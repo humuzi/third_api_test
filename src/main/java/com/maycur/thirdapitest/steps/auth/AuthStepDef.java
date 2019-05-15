@@ -8,8 +8,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.*;
 import org.json.JSONObject;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ImportResource;
+import org.springframework.stereotype.Component;
 import org.testng.annotations.*;
 
 
@@ -18,18 +17,18 @@ import org.testng.annotations.*;
  * Create by HuQiuYue on 2019-04-10
  */
 
-
+@Component
 public class AuthStepDef {
 
-//    LoginUser loginUser = new LoginUser();
-    @Autowired LoginUser loginUser;
+    LoginUser loginUser = new LoginUser();
 
     /**
      * 管理员登录
+     * @return
      */
 
     @Test(groups = {"humuzi"})
-    public  void AdminLogin() {
+    public LoginUser adminLogin() {
 
         JSONObject jsonObject = new JSONObject().put("userName", "18367148256").put("password", "123456");
         Response response = given().accept("application/json").contentType(ContentType.JSON)
@@ -45,6 +44,7 @@ public class AuthStepDef {
         loginUser.setTokenId(result.getData().getTokenId());
         loginUser.setRefreshTokenId(result.getData().getRefreshTokenId());
 
+        return loginUser;
     }
 
 

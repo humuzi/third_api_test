@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest;
+package com.maycur;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
-
+@MapperScan(basePackages = "com.maycur.thirdapitest")
 public class Application {
 
     public static void main(String[] args) {

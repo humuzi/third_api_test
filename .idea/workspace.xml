@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e48938-8928-4511-93b6-3d291e0d47f8" name="Default Changelist" comment="" />
+    <list default="true" id="66e48938-8928-4511-93b6-3d291e0d47f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/MyRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/SpringApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/auth/AuthStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/auth/AuthStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +30,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="493">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/RetryListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/MyRetry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,88 +74,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="710">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <marker date="1557387951589" expanded="true" signature="2341:2919" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="216" column="23" lean-forward="true" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/AuthResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/runtime/LoginUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/ResponseDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -134,6 +104,9 @@
       <find>test</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -148,16 +121,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/ResponseDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/ctripStepDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/ctripStepDef.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/runtime/LoginUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/bean.xml" />
         <option value="$PROJECT_DIR$/bean.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/runtime/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mapper/SpringApplicationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/MyRetry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/RetryListener.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -168,6 +144,12 @@
     <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -193,18 +175,18 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="540" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="697" />
     <option name="y" value="23" />
-    <option name="width" value="1976" />
-    <option name="height" value="1391" />
+    <option name="width" value="1812" />
+    <option name="height" value="1352" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -267,7 +249,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="maycur" type="462c0819:PsiDirectoryNode" />
               <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
@@ -279,18 +261,6 @@
               <item name="maycur" type="462c0819:PsiDirectoryNode" />
               <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="maycur" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
@@ -312,10 +282,50 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.14.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,6 +333,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -333,7 +344,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -359,37 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestDemo.AdminLogin">
-    <configuration name="TestDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="third_api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="TestDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthStepDef" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="third_api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maycur.thirdapitest.steps.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.steps.auth.AuthStepDef" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/Lee/Documents/third_api_test/testng.xml">
     <configuration name="AuthStepDef.AdminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="third_api_test" />
       <extension name="coverage">
@@ -401,6 +382,24 @@
       <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.auth" />
       <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.steps.auth.AuthStepDef" />
       <option name="METHOD_NAME" value="AdminLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthStepDef.adminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.steps.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.steps.auth.AuthStepDef" />
+      <option name="METHOD_NAME" value="adminLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -425,12 +424,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo.AdminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CtripStepDef.updateExtendProperty" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="third_api_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDemo" />
-      <option name="METHOD_NAME" value="AdminLogin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.steps.ctrip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.ctrip" />
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.steps.ctrip.CtripStepDef" />
+      <option name="METHOD_NAME" value="updateExtendProperty" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -439,18 +454,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.AuthStepDef.AdminLogin" />
-      <item itemvalue="TestNG.AuthStepDef" />
+      <item itemvalue="TestNG.CtripStepDef.updateExtendProperty" />
+      <item itemvalue="TestNG.AuthStepDef.adminLogin" />
       <item itemvalue="TestNG.CtripStepDef" />
-      <item itemvalue="Spring Boot.TestDemo" />
-      <item itemvalue="TestNG.TestDemo.AdminLogin" />
+      <item itemvalue="TestNG./Users/Lee/Documents/third_api_test/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestDemo.AdminLogin" />
-        <item itemvalue="TestNG.AuthStepDef" />
-        <item itemvalue="TestNG.AuthStepDef.AdminLogin" />
-        <item itemvalue="Spring Boot.TestDemo" />
+        <item itemvalue="TestNG./Users/Lee/Documents/third_api_test/testng.xml" />
+        <item itemvalue="TestNG.CtripStepDef.updateExtendProperty" />
+        <item itemvalue="TestNG.AuthStepDef.adminLogin" />
         <item itemvalue="TestNG.CtripStepDef" />
+        <item itemvalue="TestNG.AuthStepDef.AdminLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -483,68 +498,81 @@
       <workItem from="1557209758706" duration="717000" />
       <workItem from="1557210560471" duration="13436000" />
       <workItem from="1557368243274" duration="585000" />
-      <workItem from="1557383453825" duration="4691000" />
+      <workItem from="1557383453825" duration="5290000" />
+      <workItem from="1557489441628" duration="717000" />
+      <workItem from="1557490170834" duration="830000" />
+      <workItem from="1557673187768" duration="1879000" />
+      <workItem from="1557714111916" duration="7184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthStepDef - 2019.05.09 at 14h 42m 44s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="AuthStepDef_adminLogin - 2019.05.12 at 23h 18m 40s.xml">
+      <configuration name="AuthStepDef.adminLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef - 2019.05.09 at 14h 44m 49s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.12 at 23h 20m 46s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef - 2019.05.09 at 14h 46m 25s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.12 at 23h 23m 10s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef - 2019.05.09 at 14h 48m 21s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.12 at 23h 29m 03s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef - 2019.05.09 at 14h 50m 38s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="CtripStepDef_updateExtendProperty - 2019.05.12 at 23h 30m 06s.xml">
+      <configuration name="CtripStepDef.updateExtendProperty" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef_AdminLogin - 2019.05.09 at 14h 54m 13s.xml">
-      <configuration name="AuthStepDef.AdminLogin" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.13 at 15h 01m 24s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef - 2019.05.09 at 15h 30m 46s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.13 at 15h 48m 49s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthStepDef - 2019.05.09 at 15h 33m 37s.xml">
-      <configuration name="AuthStepDef" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.15 at 15h 06m 46s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestDemo_AdminLogin - 2019.05.09 at 15h 39m 55s.xml">
-      <configuration name="TestDemo.AdminLogin" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.15 at 15h 07m 33s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestDemo_AdminLogin - 2019.05.09 at 15h 40m 16s.xml">
-      <configuration name="TestDemo.AdminLogin" configurationId="TestNG" />
+    <history-entry file="_Users_Lee_Documents_third_api_test_testng_xml - 2019.05.15 at 15h 08m 36s.xml">
+      <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87286000" />
+    <option name="totallyTimeSpent" value="98495000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="540" y="23" width="1976" height="1391" extended-state="1" />
+    <frame x="1124" y="60" width="1812" height="1352" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15925543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19943503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299373" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3354232" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39811912" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3031528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53172207" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976827" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.328877" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32976827" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32976827" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32844335" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -591,186 +619,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestDemo.java</url>
-          <line>65</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java</url>
+          <line>1207</line>
           <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/env/DEV/application.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/StartListener.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/feature/ctrip.feature" />
-    <entry file="file://$PROJECT_DIR$/src/main/feature/fanjia.feature" />
-    <entry file="file://$PROJECT_DIR$/src/main/feature/meiya.feature" />
-    <entry file="file://$PROJECT_DIR$/src/main/feature/caocao.feature" />
-    <entry file="file://$PROJECT_DIR$/src/main/feature/huoli.feature" />
-    <entry file="file://$PROJECT_DIR$/src/main/feature/didi.feature" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160212/json-20160212.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="290" column="32" lean-forward="true" selection-start-line="290" selection-start-column="32" selection-end-line="290" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/util/JsonUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestNgMethodUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/collections/Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/EnterpriseDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/AuthLoginDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationTargetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#2807#2808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3924#3925#0" expanded="true" />
-            <element signature="e#3949#3950#0" expanded="true" />
-            <element signature="e#4050#4051#0" expanded="true" />
-            <element signature="e#4077#4078#0" expanded="true" />
-            <element signature="e#4672#4673#0" expanded="true" />
-            <element signature="e#4705#4706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/RegexpExpectedExceptionsHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/ExpectedExceptionsHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -828,37 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/ResponseDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/AuthResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="591" selection-start-line="591" selection-end-line="591" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/runtime/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,38 +699,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="253">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/RestAssured.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="247">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6394#6395#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,17 +719,338 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <marker date="1557387951589" expanded="true" signature="2341:2919" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/AuthResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/dto/ResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/annotations/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ITestNGListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ISuiteListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/annotations/Listeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="839" selection-start-line="839" selection-end-line="839" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="979" selection-start-line="979" selection-end-line="979" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.1.6.RELEASE/spring-jcl-5.1.6.RELEASE.jar!/org/apache/commons/logging/LogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="560" selection-start-line="560" selection-end-line="560" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.1.6.RELEASE/spring-jcl-5.1.6.RELEASE.jar!/org/apache/commons/logging/LogFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/util/ClassUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="216" column="23" lean-forward="true" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
+        <state relative-caret-position="3047">
+          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/runtime/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestMethodWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="108" column="57" selection-start-line="108" selection-start-column="57" selection-end-line="108" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/IMethodInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
+          <folding>
+            <element signature="e#9781#9782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ITestNGMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/WrappedTestNGMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="379" column="19" selection-start-line="379" selection-start-column="9" selection-end-line="379" selection-end-column="19" />
+          <folding>
+            <element signature="e#11608#11609#0" expanded="true" />
+            <element signature="e#11633#11634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/XmlSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+          <folding>
+            <element signature="e#8555#8556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/SuiteRunnerMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="1207" selection-start-line="1207" selection-end-line="1207" />
+          <folding>
+            <element signature="e#33705#33706#0" expanded="true" />
+            <element signature="e#33740#33741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/auth/AuthStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/steps/ctrip/CtripStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/SpringApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/MyRetry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/listener/RetryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
         </state>
       </provider>
     </entry>

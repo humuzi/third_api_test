@@ -24,6 +24,11 @@
         </packages>
 
     </test>
+
+    <listeners>
+        <listener class-name="com.maycur.thirdapitest.listener.SpringApplicationListener"></listener>
+        <listener class-name="com.maycur.thirdapitest.listener.RetryListener"></listener>
+    </listeners>
     
     <!--<listeners>-->
         <!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
