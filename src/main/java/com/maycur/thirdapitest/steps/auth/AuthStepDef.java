@@ -30,7 +30,7 @@ public class AuthStepDef {
     @Test(groups = {"humuzi"})
     public LoginUser adminLogin() {
 
-        JSONObject jsonObject = new JSONObject().put("userName", "18367148256").put("password", "123456");
+        JSONObject jsonObject = new JSONObject().put("userName", "18367148256").put("password", "123456").put("lang","zh");
         Response response = given().accept("application/json").contentType(ContentType.JSON)
                 .body(jsonObject.toString())
                 .post("https://dev.maycur.com/api/web/auth/login");

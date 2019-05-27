@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="third_api_test"
+<testsuite name="thirdApiTest"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="5.433">
+           time="4.880">
   <properties />
   
   
-            <testcase name="updateExtendProperty" time="5.433" classname="com.maycur.thirdapitest.steps.auth.AuthStepDef" />
+            <testcase name="saveRuleSetting" time="4.880" classname="com.maycur.thirdapitest.steps.ctrip.CtripStepDef" />
       
 </testsuite>
