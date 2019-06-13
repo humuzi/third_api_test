@@ -5,16 +5,16 @@
   <suite name="Test suite" duration-ms="4846" started-at="2019-05-27T09:30:29Z" finished-at="2019-05-27T09:30:34Z">
     <groups>
       <group name="humuzi">
-        <method signature="CtripStepDef.saveRuleSetting()[pri:0, instance:com.maycur.thirdapitest.steps.ctrip.CtripStepDef@4e1d422d]" name="saveRuleSetting" class="com.maycur.thirdapitest.steps.ctrip.CtripStepDef"/>
+        <method signature="CtripStepDef.saveRuleSetting()[pri:0, instance:com.maycur.thirdapitest.steps.ctrip.CtripStepDef@4e1d422d]" name="saveRuleSetting" class="com.maycur.thirdapitest.steps.CtripStepDef"/>
       </group> <!-- humuzi -->
     </groups>
     <test name="thirdApiTest" duration-ms="4846" started-at="2019-05-27T09:30:29Z" finished-at="2019-05-27T09:30:34Z">
-      <class name="com.maycur.thirdapitest.steps.ctrip.CtripStepDef">
+      <class name="com.maycur.thirdapitest.steps.CtripStepDef">
         <test-method status="PASS" signature="saveRuleSetting()[pri:0, instance:com.maycur.thirdapitest.steps.ctrip.CtripStepDef@4e1d422d]" name="saveRuleSetting" duration-ms="4811" started-at="2019-05-27T09:30:29Z" finished-at="2019-05-27T09:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveRuleSetting -->
-      </class> <!-- com.maycur.thirdapitest.steps.ctrip.CtripStepDef -->
+      </class> <!-- com.maycur.thirdapitest.steps.CtripStepDef -->
     </test> <!-- thirdApiTest -->
   </suite> <!-- Test suite -->
 </testng-results>

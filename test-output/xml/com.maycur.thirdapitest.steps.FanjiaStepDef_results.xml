@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.880">
+           time="4.651">
   <properties />
   
   
-            <testcase name="saveRuleSetting" time="4.880" classname="com.maycur.thirdapitest.steps.CtripStepDef" />
+            <testcase name="updateConfig" time="4.651" classname="com.maycur.thirdapitest.steps.FanjiaStepDef" />
       
 </testsuite>

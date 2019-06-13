@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.steps.ctrip;
+package com.maycur.thirdapitest.steps;
 
 
 
@@ -65,7 +65,7 @@ public class CtripStepDef{
     /**
      * 保存规则设置
      */
-    @Test(groups = {"humuzi"})
+    @Test(groups = {"xigua"})
     public void saveRuleSetting() throws Throwable{
 
         String jsonObject = IOUtils.toString(new FileInputStream("src/main/resources/testdata/ctrip/ruleSetting.json"),"UTF-8");
@@ -127,6 +127,7 @@ public class CtripStepDef{
         assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
         assertThat(response.getBody().asString(),response.getBody().jsonPath().get("code"),equalTo("ACK"));
     }
+
 
 
 }
