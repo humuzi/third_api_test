@@ -9,6 +9,8 @@ import io.restassured.response.*;
 import org.json.JSONObject;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.*;
 
 
@@ -17,13 +19,12 @@ import org.testng.annotations.*;
  * Create by HuQiuYue on 2019-04-10
  */
 
-
-public class AuthStepDef {
-
-//    LoginUser loginUser = new LoginUser();
+@ContextConfiguration(locations = "classpath:spring-mybatis.xml")
+public class AuthStepDef extends AbstractTestNGSpringContextTests{
 
     @Autowired
     private LoginUser loginUser;
+
 
     /**
      * 管理员登录
@@ -35,9 +36,11 @@ public class AuthStepDef {
     public void adminLogin() {
 
         JSONObject jsonObject = new JSONObject().put("userName", "18367148256").put("password", "123456").put("lang","zh");
-        Response response = given().accept(ContentType.JSON).contentType(ContentType.JSON)
+        Response response = given().contentType(ContentType.JSON).accept("application/json")
                 .body(jsonObject.toString())
                 .post("https://dev.maycur.com/api/web/auth/login");
+
+        System.out.println(response.getStatusCode());
 
 
         AuthLoginDto result = response.getBody().as(AuthLoginDto.class);
@@ -47,7 +50,7 @@ public class AuthStepDef {
         loginUser.setEntCode(result.getData().getEnts().get(0).getEntCode());
         loginUser.setUserName(result.getData().getUserName());
 
-        System.out.println(loginUser.getTokenId());
+        System.out.println(loginUser);
 
     }
 

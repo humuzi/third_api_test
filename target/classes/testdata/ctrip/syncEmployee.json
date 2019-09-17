@@ -1,0 +1,22 @@
+{
+  "AppKey":"obk_testnet",
+  "Ticket":"5ceb878b496e39fc0028f67",
+  "CorporationID":"testnet",
+  "AuthenticationInfoList":[
+    {
+      "Sequence":0,
+      "Authentication":{
+        "EmployeeID":"426",
+        "Name":"小白",
+        "Email":"hu@163.com",
+        "Valid":"A",
+        "Dept2":"财务部门",
+        "SubAccountName":"Cheery",
+        "UseTRFlag":28,
+        "IsSendEMail":true,
+        "IsBookClass":"F",
+        "IntlBookClassBlock":"C;F"
+      }
+    }
+  ]
+}

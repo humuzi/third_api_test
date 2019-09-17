@@ -1,6 +1,6 @@
 package com.maycur.thirdapitest.util;
 
-import com.maycur.thirdapitest.mapper.CtripEntInfo;
+import com.maycur.thirdapitest.api.mapper.CtripEntInfo;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.json.JSONObject;

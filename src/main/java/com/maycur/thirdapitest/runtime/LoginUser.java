@@ -13,7 +13,4 @@ public class LoginUser {
     private String refreshTokenId;
     private String entCode;
     private String userName;
-
-    public LoginUser() {
-    }
 }

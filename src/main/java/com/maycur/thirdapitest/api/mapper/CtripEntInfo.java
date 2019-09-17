@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.mapper;
+package com.maycur.thirdapitest.api.mapper;
 
 import com.maycur.thirdapitest.dto.CtripEntInfoDto;
 import org.apache.ibatis.annotations.Param;
