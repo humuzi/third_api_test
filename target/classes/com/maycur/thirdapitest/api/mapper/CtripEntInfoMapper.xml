@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maycur.thirdapitest.api.mapper.CtripEntInfoMapper">
+
+    <select id="selectEntInfo" parameterType="string" resultType="com.maycur.thirdapitest.api.dto.CtripEntInfoDto">
+        select app_key, app_security from ctrip_ent_info where ent_code = #{entCode,jdbcType=VARCHAR};
+    </select>
+</mapper>

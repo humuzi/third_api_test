@@ -8,6 +8,6 @@
   <properties />
   
   
-            <testcase name="updateConfig" time="4.651" classname="com.maycur.thirdapitest.steps.FanjiaStepDef" />
+            <testcase name="updateConfig" time="4.651" classname="com.maycur.thirdapitest.front.steps.FanjiaStepDef" />
       
 </testsuite>

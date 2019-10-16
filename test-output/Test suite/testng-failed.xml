@@ -8,11 +8,11 @@
       </run>
     </groups>
     <classes>
-      <class name="com.maycur.thirdapitest.steps.auth.AuthStepDef">
+      <class name="com.maycur.thirdapitest.front.steps.auth.AuthStepDef">
         <methods>
           <include name="updateExtendProperty"/>
         </methods>
-      </class> <!-- com.maycur.thirdapitest.steps.authctripStepDef -->
+      </class> <!-- com.maycur.thirdapitest.front.steps.authctripStepDef -->
     </classes>
   </test> <!-- thirdApiTest(failed) -->
 </suite> <!-- Failed suite [Test suite] -->

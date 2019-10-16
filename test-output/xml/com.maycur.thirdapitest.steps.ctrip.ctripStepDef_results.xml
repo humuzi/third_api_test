@@ -8,6 +8,6 @@
   <properties />
   
   
-            <testcase name="saveRuleSetting" time="4.880" classname="com.maycur.thirdapitest.steps.CtripStepDef" />
+            <testcase name="saveRuleSetting" time="4.880" classname="com.maycur.thirdapitest.front.steps.CtripStepDef" />
       
 </testsuite>

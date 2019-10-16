@@ -1,22 +1,13 @@
 import static io.restassured.RestAssured.*;
 
-import com.maycur.thirdapitest.dto.AuthLoginDto;
-import com.maycur.thirdapitest.runtime.LoginUser;
+import com.maycur.thirdapitest.front.dto.AuthLoginDto;
 import io.restassured.RestAssured;
 import io.restassured.config.SSLConfig;
 import io.restassured.http.ContentType;
 import io.restassured.http.Headers;
-import org.json.JSONObject;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ImportResource;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.transaction.annotation.Transactional;
 import org.testng.annotations.*;
 import io.restassured.response.*;
 import java.util.Map;
-import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * Create by HuQiuYue on 2019-04-10

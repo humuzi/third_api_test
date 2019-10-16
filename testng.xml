@@ -6,13 +6,17 @@
         <groups>
             <run>
                 <include name="muzi"/>
-                <exclude name="xigua"></exclude>
+                <exclude name="xigua"/>
             </run>
         </groups>
 
         <packages>
-            <package name="com.maycur.thirdapitest.steps.*"/>
+            <package name="com.maycur.thirdapitest.*.steps.*"/>
         </packages>
+
+<!--        <classes>-->
+<!--            <class name="com.maycur.thirdapitest.util.CtripTokenUtil"></class>-->
+<!--        </classes>-->
 
     </test>
 
