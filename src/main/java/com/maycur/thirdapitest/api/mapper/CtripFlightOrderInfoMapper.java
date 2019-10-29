@@ -12,4 +12,8 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public interface CtripFlightOrderInfoMapper {
     OrderInfo selectFlightOrder(@Param("entCode") String entCode, @Param("orderId") String orderId);
+
+    OrderInfo getFlightSettlementInfo(@Param("entCode")String entCode,@Param("recordId") String recordId);
+
+
 }

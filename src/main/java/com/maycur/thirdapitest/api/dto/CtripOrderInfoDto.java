@@ -8,7 +8,7 @@ import java.util.List;
  * Create by HuQiuYue on 2019-09-17
  */
 @Data
-public class CtripFlightOrderDto {
+public class CtripOrderInfoDto {
     private List<ItineraryListDto> itineraryList;
 
 }

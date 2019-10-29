@@ -1,0 +1,10 @@
+{
+  "Auth": {
+    "AppKey": "obk_sensetime",
+    "Ticket": ""
+  },
+
+  "DateFrom": "2019-08-20",
+  "DateTo": "2019-08-30",
+  "RecordID":"73867628"
+}

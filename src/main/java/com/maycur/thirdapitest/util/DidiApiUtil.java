@@ -5,11 +5,11 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
-import static io.restassured.RestAssured.given;
 
-import java.util.Date;
 import java.util.Map;
 import java.util.TreeMap;
+
+import static io.restassured.RestAssured.given;
 
 /**
  * Create by HuQiuYue on 2019-06-12
@@ -46,7 +46,7 @@ public class DidiApiUtil {
     public String getAccessToken(){
         JSONObject jsonObject = new JSONObject()
                 .put("client_id","hzmkkj")
-                .put("client_secret","")
+                .put("client_secret","4fd660fd94c74c3f056af6bcf6da5324")
                 .put("grant_type","client_credentials")
                 .put("phone","13081000101")
                 .put("timestamp",String.valueOf(System.currentTimeMillis()))
@@ -59,5 +59,12 @@ public class DidiApiUtil {
         return response.getBody().jsonPath().get("access_token");
 
     }
+
+    public static void main(String[] args) {
+        DidiApiUtil didi = new DidiApiUtil();
+        System.out.println(didi.getAccessToken());
+    }
+
+
 
 }
