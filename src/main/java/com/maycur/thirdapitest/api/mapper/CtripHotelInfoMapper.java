@@ -13,4 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 public interface CtripHotelOrderInfoMapper {
 
     OrderInfo getHotelOrderInfo(@Param("entCode") String entCode,@Param("orderId") String orderId);
+
+    OrderInfo getHotelSettlementInfo(@Param("entCode") String entCode,@Param("recordId") String recordId);
 }
