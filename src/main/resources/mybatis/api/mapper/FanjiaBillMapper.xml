@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maycur.thirdapitest.api.mapper.FanjiaBillMapper">
+    <select id="getBillNum" parameterType="string">
+        select count(1) from tmc_reconcile_bill where ent_code = #{entCode,jdbcType=VARCHAR} and reconcile_status = #{status,jdbcType=VARCHAR};
+    </select>
+</mapper>

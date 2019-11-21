@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.maycur.thirdapitest.api.mapper.CtripFlightOrderInfoMapper">
+<mapper namespace="com.maycur.thirdapitest.api.mapper.CtripFlightInfoMapper">
 
     <select id="selectFlightOrder" parameterType="string" >
         select order_id,journey_no,consume_amount,purpose,pay_type,itinerary_service_amount
