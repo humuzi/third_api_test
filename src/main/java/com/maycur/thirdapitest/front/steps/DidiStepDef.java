@@ -1,7 +1,7 @@
 package com.maycur.thirdapitest.front.steps;
 
-import com.maycur.thirdapitest.front.runtime.LoginUser;
-import com.maycur.thirdapitest.util.ConfigUtil;
+import com.maycur.thirdapitest.common.runtime.LoginUser;
+import com.maycur.thirdapitest.common.util.ConfigUtil;
 import io.restassured.response.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;

@@ -1,0 +1,45 @@
+{
+  "priceTypes":[],
+  "cityTypes":[],
+  "reconciliations":[1, 2, 4],
+  "notificationEmail":true,
+  "restrictDomesticClass":true,
+  "employeeProps":[
+    {
+      "code":"subsidiary",
+      "name":"业务实体名称",
+      "selected":true
+    },
+    {
+      "code":"department",
+      "name":"部门名称",
+      "selected":true
+    }
+  ],
+  "journeyProps":[
+    {
+      "code":"subsidiary",
+      "name":"业务实体名称",
+      "selected":true
+    }
+  ],
+  "extendJourneyDate":true,
+  "forwardDays":2,
+  "postponeDays":3,
+  "empOrderTypes":[1, 2],
+  "unifyReimbursePeriod":"DAILY",
+  "settlementSettingBits":7,
+  "unifyReimburseSettingBits":7,
+  "restrictHotelAvgPrice":true,
+  "restrictFlightSeatClass":true,
+  "restrictFlightBookingCount":1,
+  "restrictIntlClass":true,
+  "bookForOthers":3,
+  "restrictFlightPrice":false,
+  "restrictHotelPrice":false,
+  "restrictTrainPrice":false,
+  "restrictFlightCity":false,
+  "restrictHotelCity":false,
+  "restrictTrainCity":false,
+  "authorizeType":1
+}

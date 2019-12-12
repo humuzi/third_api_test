@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Repository
 @Transactional
-public interface CtripFlightOrderInfoMapper {
+public interface CtripFlightInfoMapper {
     OrderInfo selectFlightOrder(@Param("entCode") String entCode, @Param("orderId") String orderId);
 
     OrderInfo getFlightSettlementInfo(@Param("entCode")String entCode,@Param("recordId") String recordId);

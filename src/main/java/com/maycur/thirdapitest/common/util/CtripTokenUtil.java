@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.util;
+package com.maycur.thirdapitest.common.util;
 
 import com.maycur.thirdapitest.api.mapper.CtripEntInfoMapper;
 import io.restassured.http.ContentType;

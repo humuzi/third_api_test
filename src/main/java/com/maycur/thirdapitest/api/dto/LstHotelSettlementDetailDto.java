@@ -7,6 +7,6 @@ import lombok.Data;
  */
 @Data
 public class LstHotelSettlementDetailDto extends LstHtlSettlementDto {
-    private SettlementDetailDto SettlementDetailDto;
+    private SettlementDetailDto SettlementDetail;
     private OrderDetailDto OrderDetail;
 }

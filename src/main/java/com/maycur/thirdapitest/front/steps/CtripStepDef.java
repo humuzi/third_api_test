@@ -1,6 +1,9 @@
 package com.maycur.thirdapitest.front.steps;
 
-import com.maycur.thirdapitest.front.runtime.LoginUser;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.maycur.thirdapitest.common.runtime.LoginUser;
+import com.maycur.thirdapitest.front.mapper.CtripEntInfoMapper;
+import com.maycur.thirdapitest.front.pojo.CtripEntInfo;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.apache.commons.io.IOUtils;
@@ -24,21 +27,19 @@ public class CtripStepDef extends AbstractTestNGSpringContextTests {
 
     @Autowired
     private LoginUser loginUser;
+    @Autowired private CtripEntInfoMapper ctripEntInfoMapper;
 
     /**
      * 设置subAccount例外人员
      */
     @Test(groups = {"muzi"})
     public void setSubAccountException() throws Throwable{
-
-        System.out.println(loginUser);
-
-        String jsonObject = IOUtils.toString(new FileInputStream("src/main/resources/testdata/ctrip/SAException.json"),"UTF-8");
+        String unificationEmployees = IOUtils.toString(new FileInputStream("src/main/resources/testdata/ctrip/SAException.json"),"UTF-8");
 
         Response response = given().contentType(ContentType.JSON).accept(ContentType.JSON)
                 .header("entCode","EC1704131UT5KW00")
                 .header("tokenId",loginUser.getTokenId())
-                .body(jsonObject)
+                .body(unificationEmployees)
                 .post("https://dev.maycur.com/api/web/ctrip/exception_member/SUB_ACCOUNT_UNIFICATION");
 
         assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
@@ -78,6 +79,7 @@ public class CtripStepDef extends AbstractTestNGSpringContextTests {
 
         assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
         assertThat(response.getBody().asString(),response.getBody().jsonPath().get("code"),equalTo("ACK"));
+
     }
 
     /**
@@ -100,13 +102,12 @@ public class CtripStepDef extends AbstractTestNGSpringContextTests {
      * 同步携程员工
      */
     @Test(groups = {"xigua"})
-    public void syncEmployee() throws Throwable{
+    public void syncEmployee(){
 
-        String jsonObject = IOUtils.toString(new FileInputStream("src/main/resources/testdata/ctrip/syncEmployee.json"),"UTF-8");
         Response response = given().accept("application/json").contentType(ContentType.JSON)
                 .header("entCode","EC1704131UT5KW00")
                 .header("tokenId",loginUser.getTokenId())
-                .body(jsonObject).post("https://dev.maycur.com/api/web/ctrip/syncEmployees");
+                .post("https://dev.maycur.com/api/web/ctrip/syncEmployees");
 
         assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
     }
@@ -128,6 +129,10 @@ public class CtripStepDef extends AbstractTestNGSpringContextTests {
 
         assertThat(response.getBody().asString(),response.getStatusCode(),equalTo(200));
         assertThat(response.getBody().asString(),response.getBody().jsonPath().get("code"),equalTo("ACK"));
+
+        CtripEntInfo entInfo = new ObjectMapper().readValue(jsonObject,CtripEntInfo.class);
+        assertThat(entInfo.getAuthorizeType(),equalTo(ctripEntInfoMapper.getEntInfo("EC1705101O7ZQCCG").getAuthorizeType()));
+        assertThat(entInfo.getHotelAgreementServiceFee(),equalTo(ctripEntInfoMapper.getEntInfo("EC1705101O7ZQCCG").getHotelAgreementServiceFee()));
     }
 
 }

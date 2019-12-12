@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.listener;
+package com.maycur.thirdapitest.common.listener;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.testng.ISuite;

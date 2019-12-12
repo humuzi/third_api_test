@@ -1,10 +1,9 @@
-package com.maycur.thirdapitest.util;
+package com.maycur.thirdapitest.common.util;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.*;
 
-import com.alibaba.fastjson.JSON;
 import org.json.*;
 
 /**

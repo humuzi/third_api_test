@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maycur.thirdapitest.front.mapper.CtripEntInfoMapper">
+    <select id="getEntInfo">
+        select  authorize_type,book_for_employees,restrict_flight_city,restrict_hotel_city,restrict_train_city,restrict_flight_price,restrict_hotel_price,restrict_train_price,
+       journey_contains_companion,employee_contains_subsidiary,employee_contains_department,employee_contains_invoice_title,employee_contains_rank,employee_contains_confirm_person,employee_contains_confirm_person2,
+       book_for_others,restrict_domestic_class,extend_journey_date,forward_days,postpone_days,ignore_hotel_city,settlement_setting_bits,unify_reimburse_setting_bits,unify_reimburse_period,restrict_hotel_avg_price,
+       restrict_intl_class,hotel_special_invoice_fee,hotel_agreement_service_fee from ctrip_ent_info where ent_code = #{entCode,jdbcType=VARCHAR};
+    </select>
+</mapper>

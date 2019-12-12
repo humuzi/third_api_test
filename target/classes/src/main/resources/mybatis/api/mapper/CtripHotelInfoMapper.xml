@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maycur.thirdapitest.api.mapper.CtripHotelInfoMapper">
+    <select id="getHotelOrderInfo" parameterType="string">
+        select order_id,journey_no,consume_amount,pay_type from ctrip_hotel_order where ent_code = #{entCode,jdbcType=VARCHAR} and order_id = #{orderId,jdbcType=VARCHAR};
+    </select>
+
+    <select id="getHotelSettlementInfo" parameterType="string">
+        select ch.journey_no,cd.record_id,cd.order_id,cd.service_amount,cd.total_amount
+        from ctrip_stl_hotel_order ch join ctrip_stl_hotel_detail cd on ch.record_id = cd.record_id
+        where cd.ent_code = #{entCode,jdbcType=VARCHAR} and cd.revord_id = #{recordId,jdbcType= VARCHAR};
+    </select>
+</mapper>

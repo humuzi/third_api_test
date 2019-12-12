@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.runtime;
+package com.maycur.thirdapitest.common.runtime;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 

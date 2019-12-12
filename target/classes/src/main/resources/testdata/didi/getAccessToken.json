@@ -1,0 +1,8 @@
+{
+  "client_id": "hzmkkj",
+  "client_secret": "{cipher}26ba7acb4688df48f06227f6d6a8ad64a4712bfbeb1bfcc0d6b34db8774170760eda1706fe8e674aa07bcba5b52cc6e2ef1ba938c36177de65520e5daa1c0d4a",
+  "grant_type": "client_credentials",
+  "phone": "13081000101",
+  "timestamp": "1560414450",
+  "sign": "15929c80135d2e0427a6e1d1d0f466b3"
+}

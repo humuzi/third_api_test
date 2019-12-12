@@ -6,11 +6,11 @@ import com.maycur.thirdapitest.api.dto.FlightOrderResultDto;
 import com.maycur.thirdapitest.api.dto.HotelOrderResultDto;
 import com.maycur.thirdapitest.api.dto.ItineraryListDto;
 import com.maycur.thirdapitest.api.dto.ctripOrderParamDto.CtripOrderParamDto;
-import com.maycur.thirdapitest.api.mapper.CtripFlightOrderInfoMapper;
-import com.maycur.thirdapitest.api.mapper.CtripHotelOrderInfoMapper;
+import com.maycur.thirdapitest.api.mapper.CtripFlightInfoMapper;
+import com.maycur.thirdapitest.api.mapper.CtripHotelInfoMapper;
 import com.maycur.thirdapitest.api.pojo.OrderInfo;
-import com.maycur.thirdapitest.util.ConfigUtil;
-import com.maycur.thirdapitest.util.CtripTokenUtil;
+import com.maycur.thirdapitest.common.util.ConfigUtil;
+import com.maycur.thirdapitest.common.util.CtripTokenUtil;
 import io.restassured.http.ContentType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
@@ -32,8 +32,8 @@ import static org.hamcrest.Matchers.equalTo;
  */
 @ContextConfiguration(locations = "classpath:spring-mybatis.xml")
 public class CtripOrderStepDef extends AbstractTestNGSpringContextTests {
-    @Autowired private CtripFlightOrderInfoMapper ctripFlightOrderInfoMapper;
-    @Autowired private CtripHotelOrderInfoMapper ctripHotelOrderInfoMapper;
+    @Autowired private CtripFlightInfoMapper ctripFlightInfoMapper;
+    @Autowired private CtripHotelInfoMapper ctripHotelInfoMapper;
     @Autowired private ConfigUtil configUtil;
     @Autowired private CtripTokenUtil ctripTokenUtil;
 
@@ -58,7 +58,7 @@ public class CtripOrderStepDef extends AbstractTestNGSpringContextTests {
         expected.setOrderId(flightInfo.get(0).getFlightOrderInfoList().get(0).getBasicInfo().getOrderID());
         expected.setJourneyNo(flightInfo.get(0).getFlightOrderInfoList().get(0).getBasicInfo().getJourneyID());
         expected.setItineraryFee(flightInfo.get(0).getFlightOrderInfoList().get(0).getBasicInfo().getServiceDetailInfo().getItineraryFeeForRMB());
-        OrderInfo actual = ctripFlightOrderInfoMapper.selectFlightOrder("EC1704201C9VD0QO","10605510018");
+        OrderInfo actual = ctripFlightInfoMapper.selectFlightOrder("EC1704201C9VD0QO","10605510018");
         assertThat(actual.getOrderId(),equalTo(expected.getOrderId()));
         assertThat(actual.getJourneyNo(),equalTo(expected.getJourneyNo()));
         assertThat(actual.getItineraryFee(),equalTo(expected.getItineraryFee()));
@@ -81,7 +81,7 @@ public class CtripOrderStepDef extends AbstractTestNGSpringContextTests {
         expected.setOrderId(hotelInfo.get(1).getHotelOrderInfoList().get(0).getOrderID());
         expected.setJourneyId(hotelInfo.get(1).getHotelOrderInfoList().get(0).getJourneyNo());
         expected.setAmount(hotelInfo.get(1).getHotelOrderInfoList().get(0).getAmount());
-        OrderInfo actual = ctripHotelOrderInfoMapper.getHotelOrderInfo("EC1704201C9VD0QO","10686136114");
+        OrderInfo actual = ctripHotelInfoMapper.getHotelOrderInfo("EC1704201C9VD0QO","10686136114");
         assertThat(actual.getOrderId(),equalTo(expected.getOrderId()));
         assertThat(actual.getJourneyNo(),equalTo(expected.getJourneyId()));
         assertThat(actual.getConsumeAmount(),equalTo(expected.getAmount()));

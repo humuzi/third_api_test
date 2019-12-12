@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maycur.thirdapitest.api.mapper.CtripFlightInfoMapper">
+
+    <select id="selectFlightOrder" parameterType="string" >
+        select order_id,journey_no,consume_amount,purpose,pay_type,itinerary_service_amount
+        from ctrip_flight_order where ent_code = #{entCode,jdbcType=VARCHAR} and order_id = #{orderId,jdbcType=VARCHAR};
+    </select>
+
+    <select id="getFlightSettlementInfo" parameterType="string">
+        select cf.journey_no,cd.record_id,cd.order_id,cd.total_amount,cd.extra_service_amount
+        from ctrip_stl_flight_order cf join ctrip_stl_flight_detail cd on cf.record_id = cd.record_id
+        where cd.ent_code = #{entCode,jdbcType=VARCHAR} and cd.record_id = #{recordId,jdbcType=VARCHAR};
+    </select>
+</mapper>

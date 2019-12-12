@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Repository
 @Transactional
-public interface CtripHotelOrderInfoMapper {
+public interface CtripHotelInfoMapper {
 
     OrderInfo getHotelOrderInfo(@Param("entCode") String entCode,@Param("orderId") String orderId);
 

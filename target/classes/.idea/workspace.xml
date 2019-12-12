@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66e48938-8928-4511-93b6-3d291e0d47f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/SqlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthResultDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/EntDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/pojo/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/AuthStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/CtripStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testdata/mobile/loginParam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/BillsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/BillsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/ChargeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/ChargeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FanjiaReconcilingBillDetailsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FanjiaReconcilingBillDetailsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FanjiaReconcilingBillsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FanjiaReconcilingBillsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FanjiaUnreconciledBillsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FanjiaUnreconciledBillsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/LstHotelSettlementDetailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/LstHotelSettlementDetailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/MeiyaBillParamDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/MeiyaBillParamDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/CtripFlightInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/CtripFlightInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/CtripHotelInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/CtripHotelInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/FanjiaBillMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/FanjiaBillMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/MeiyaBillMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/MeiyaBillMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripOrderStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripOrderStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementBillStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementBillStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/FanjiaBillStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/FanjiaBillStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/MeiyaBillStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/MeiyaBillStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/listener/MyRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/listener/MyRetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/listener/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/listener/RetryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/listener/SpringApplicationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/listener/SpringApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/runtime/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/runtime/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/ConfigUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/CtripTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/CtripTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/DidiApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/DidiApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/JsonUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/JsonUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/MeiyaSessionIdUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/MeiyaSessionIdUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CEmployeePropsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CEmployeePropsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CJourneyPropsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CJourneyPropsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CtripConfigDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CtripConfigDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/EmployeePropsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/EmployeePropsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/FanjiaConfigDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/FanjiaConfigDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/JourneyPropsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/JourneyPropsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/MeiyaConfigDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/MeiyaConfigDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/TMCNoApprovalScopeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/TMCNoApprovalScopeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/CtripEntInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/CtripEntInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/FanjiaEntInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/FanjiaEntInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/MeiyaEntInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/MeiyaEntInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/CtripEntInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/CtripEntInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/FanjiaEntInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/FanjiaEntInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/MeiyaEntInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/MeiyaEntInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/CtripStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/CtripStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/DidiStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/DidiStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/FanjiaStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/FanjiaStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/MeiyaStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/MeiyaStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/front/mapper/FanjiaEntInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/front/mapper/FanjiaEntInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testdata/ctrip/hotelSettlementParam.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testdata/ctrip/hotelSettlementParam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testdata/meiya/meiyaBillParam.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testdata/meiya/meiyaBillParam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/third_api_test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/mapper/CtripFlightOrderInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/mapper/CtripFlightOrderInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/mapper/CtripHotelOrderInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/mapper/CtripHotelOrderInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/steps/CtripOrderStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/steps/CtripOrderStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/steps/CtripSettlementStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/api/steps/CtripSettlementStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/CtripStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/CtripStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/FanjiaStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/FanjiaStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/MeiyaStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/MeiyaStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/ctrip/syncEmployee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata/fanjia/syncEmployee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Test suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Test suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/constant/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/AuthStepDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthResultDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/ResponseDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/EntDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="TestNG Test Class" />
+        <option value="Interface" />
+        <option value="mapper" />
+        <option value="spring-beans.schema" />
+        <option value="package.json" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fromObject</find>
+      <find>uncommons</find>
+      <find>google</find>
+      <find>test</find>
+      <find>toString</find>
+      <find>given</find>
+      <find>given().</find>
+      <find>put</find>
+      <find>spring</find>
+      <find>json</find>
+      <find>spring-boot-starter-test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/FeeDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/FanjiaBillMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/FanjiaBillStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testdata/meiya/package.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/testdata/meiya/meiyaBillParam.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/MeiyaBillMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/MeiyaBillMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/BillsDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/MeiyaBillParamDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/MeiyaBillStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/MeiyaConfigDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/EmployeePropsDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/JourneyPropsDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/MeiyaEntInfoDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/MeiyaEntInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/MeiyaEntInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/MeiyaEntInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/MeiyaStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CtripConfigDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CJourneyPropsDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CEmployeePropsDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/CtripEntInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/CtripEntInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/CtripEntInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/CtripStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/FanjiaConfigDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/TMCNoApprovalScopeDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/FanjiaEntInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/FanjiaEntInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/FanjiaEntInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/front/mapper/FanjiaEntInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/FanjiaStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/SqlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/constant/Constnt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementBillStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/ConfigUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/CtripStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/pojo/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testdata/mobile/package.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/testdata/mobile/loginParam.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/ResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthLoginDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/EntDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthResultDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/AuthStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/PasswordUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="third_api_test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="third_api_test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="452" />
+    <option name="y" value="23" />
+    <option name="width" value="2071" />
+    <option name="height" value="1370" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="maycur" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdapitest" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="third_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v7.0.0/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.maycur.thirdapitest.front.dto" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.maycur.thirdapitest" />
+      <recent name="com.maycur.thirdapitest.front" />
+      <recent name="com.maycur.thirdapitest.steps" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis/api/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis/front/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis/api" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources/testdata/excel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.AuthStepDef.adminLogin">
+    <configuration name="DidiApiUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.common.util.DidiApiUtil" />
+      <module name="third_api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthStepDef.adminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.front.steps.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.steps.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.front.steps.auth.AuthStepDef" />
+      <option name="METHOD_NAME" value="adminLogin" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CtripOrderStepDef.searchFlightOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.api.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.api.steps" />
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.api.steps.CtripOrderStepDef" />
+      <option name="METHOD_NAME" value="searchFlightOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CtripTokenUtil.getCtripToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maycur.thirdapitest.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maycur.thirdapitest.util" />
+      <option name="MAIN_CLASS_NAME" value="com.maycur.thirdapitest.common.util.CtripTokenUtil" />
+      <option name="METHOD_NAME" value="getCtripToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/Lee/Documents/third_api_test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="third_api_test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DidiApiUtil" />
+      <item itemvalue="TestNG.AuthStepDef.adminLogin" />
+      <item itemvalue="TestNG.CtripOrderStepDef.searchFlightOrder" />
+      <item itemvalue="TestNG.CtripTokenUtil.getCtripToken" />
+      <item itemvalue="TestNG./Users/Lee/Documents/third_api_test/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AuthStepDef.adminLogin" />
+        <item itemvalue="Application.DidiApiUtil" />
+        <item itemvalue="TestNG.CtripTokenUtil.getCtripToken" />
+        <item itemvalue="TestNG.CtripOrderStepDef.searchFlightOrder" />
+        <item itemvalue="TestNG./Users/Lee/Documents/third_api_test/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66e48938-8928-4511-93b6-3d291e0d47f8" name="Default Changelist" comment="" />
+      <created>1554369089442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554369089442</updated>
+      <workItem from="1554369092069" duration="1613000" />
+      <workItem from="1554642938604" duration="2589000" />
+      <workItem from="1554689257741" duration="1141000" />
+      <workItem from="1554704096945" duration="396000" />
+      <workItem from="1554708726753" duration="16591000" />
+      <workItem from="1554886220419" duration="2324000" />
+      <workItem from="1554889629407" duration="5987000" />
+      <workItem from="1555484276668" duration="1216000" />
+      <workItem from="1555486286827" duration="9614000" />
+      <workItem from="1555552154195" duration="9968000" />
+      <workItem from="1555639136049" duration="151000" />
+      <workItem from="1555896586762" duration="10000" />
+      <workItem from="1556614687711" duration="1863000" />
+      <workItem from="1556678294620" duration="5000" />
+      <workItem from="1557026602592" duration="13985000" />
+      <workItem from="1557209201681" duration="404000" />
+      <workItem from="1557209758706" duration="717000" />
+      <workItem from="1557210560471" duration="13436000" />
+      <workItem from="1557368243274" duration="585000" />
+      <workItem from="1557383453825" duration="5290000" />
+      <workItem from="1557489441628" duration="717000" />
+      <workItem from="1557490170834" duration="830000" />
+      <workItem from="1557673187768" duration="1879000" />
+      <workItem from="1557714111916" duration="13395000" />
+      <workItem from="1558320349081" duration="19371000" />
+      <workItem from="1558679651319" duration="213000" />
+      <workItem from="1558927533033" duration="5370000" />
+      <workItem from="1558944195472" duration="12799000" />
+      <workItem from="1559546229000" duration="9643000" />
+      <workItem from="1559823868676" duration="72000" />
+      <workItem from="1560172808007" duration="5330000" />
+      <workItem from="1560396562662" duration="10100000" />
+      <workItem from="1560757983604" duration="26095000" />
+      <workItem from="1561345209571" duration="5855000" />
+      <workItem from="1561624981206" duration="3446000" />
+      <workItem from="1561951385967" duration="327000" />
+      <workItem from="1562740601701" duration="616000" />
+      <workItem from="1565667869344" duration="405000" />
+      <workItem from="1567597976732" duration="5094000" />
+      <workItem from="1567737423635" duration="16516000" />
+      <workItem from="1568020668897" duration="11598000" />
+      <workItem from="1568190878124" duration="1811000" />
+      <workItem from="1568555750339" duration="2571000" />
+      <workItem from="1568595645707" duration="40096000" />
+      <workItem from="1569383216807" duration="108000" />
+      <workItem from="1569400141990" duration="6811000" />
+      <workItem from="1570498566081" duration="36411000" />
+      <workItem from="1570866609311" duration="7458000" />
+      <workItem from="1571024305456" duration="17842000" />
+      <workItem from="1571278031449" duration="9950000" />
+      <workItem from="1571638301351" duration="1977000" />
+      <workItem from="1571969410407" duration="2305000" />
+      <workItem from="1572336886848" duration="6980000" />
+      <workItem from="1572836599854" duration="8790000" />
+      <workItem from="1572933880749" duration="340000" />
+      <workItem from="1572935042644" duration="1553000" />
+      <workItem from="1572936614019" duration="328000" />
+      <workItem from="1572936998693" duration="5535000" />
+      <workItem from="1573031499742" duration="15207000" />
+      <workItem from="1573438758499" duration="29305000" />
+      <workItem from="1574044094223" duration="825000" />
+      <workItem from="1574150203381" duration="6610000" />
+      <workItem from="1574327753523" duration="12851000" />
+      <workItem from="1574646644822" duration="6434000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 19h 24m 06s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 19h 25m 26s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 19h 26m 12s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 19h 32m 37s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 19h 33m 12s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 20h 15m 13s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 20h 16m 24s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CtripTokenUtil_getCtripToken - 2019.10.14 at 20h 19m 50s.xml">
+      <configuration name="CtripTokenUtil.getCtripToken" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthStepDef_adminLogin - 2019.11.05 at 15h 12m 39s.xml">
+      <configuration name="AuthStepDef.adminLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthStepDef_adminLogin - 2019.11.05 at 15h 22m 06s.xml">
+      <configuration name="AuthStepDef.adminLogin" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="459654000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="452" y="23" width="2071" height="1370" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941522" visible="true" weight="0.23410547" />
+      <window_info id="Structure" order="1" sideWeight="0.5005848" side_tool="true" weight="0.25445545" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32988048" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282504" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3130016" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5167038" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976827" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997636" weight="0.3800797" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002364" side_tool="true" weight="0.33467096" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32976827" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32905295" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32191235" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.43296817" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941522" visible="true" weight="0.2340756" />
+      <window_info id="Structure" order="1" sideWeight="0.5005848" side_tool="true" weight="0.25445545" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31397307" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5171674" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976827" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997636" weight="0.32828283" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002364" side_tool="true" weight="0.33467418" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32976827" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32976827" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32323232" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.43296817" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="((RestAssuredResponseOptionsGroovyImpl)((RestAssuredResponseImpl)response).groovyResponse).statusCode" language="JAVA" custom="io.restassured.internal.RestAssuredResponseImpl,io.restassured.internal.RestAssuredResponseOptionsGroovyImpl" />
+        <watch expression="((RestAssuredResponseImpl)response).groovyResponse" custom="io.restassured.internal.RestAssuredResponseImpl" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>((RestAssuredResponseOptionsGroovyImpl)((RestAssuredResponseImpl)response).groovyResponse).statusCode</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>io.restassured.internal.RestAssuredResponseImpl,io.restassured.internal.RestAssuredResponseOptionsGroovyImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;).contentType(ContentType.JSON)
+                .header(&quot;entCode&quot;,&quot;EC1704131UT5KW00&quot;)
+                .header(&quot;tokenId&quot;,loginUser.getTokenId())
+                .body(jsonObject)
+                .post(&quot;https://dev.maycur.com/api/web/ctrip/exception_member/SUB_ACCOUNT_UNIFICATION&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>applicationContext.getBean(DataSource.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javax.sql.DataSource</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;)
+                .body(jsonObject.toString())
+                .post(configUtil.getBaseUrl() + &quot;/didi/user/bind&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;)
+                .body(jsonObject.toString())
+                .post(configUtil.getBaseUrl() + &quot;/user/bind&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;)
+                .header(&quot;entCode&quot;,&quot;EC1704131UT5KW00&quot;)
+                .header(&quot;tokenId&quot;,auth.adminLogin().getTokenId())
+                .put(&quot;https://dev.maycur.com/api/web/ctrip/unification_switch&quot;,jsonObject);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;)
+                .header(&quot;entCode&quot;,&quot;EC1704131UT5KW00&quot;)
+                .header(&quot;tokenId&quot;,auth.adminLogin().getTokenId())
+                .put(&quot;https://dev.maycur.com/api/web/ctrip/unification_switch&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;)
+                .header(&quot;entCode&quot;,&quot;EC1704131UT5KW00&quot;)
+                .header(&quot;tokenId&quot;,auth.adminLogin().getTokenId())
+                .body(jsonObject)
+                .put(&quot;https://dev.maycur.com/api/web/ctrip/unification_switch&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;)
+                .header(&quot;entCode&quot;,&quot;EC1704131UT5KW00&quot;)
+                .header(&quot;tokenId&quot;,auth.adminLogin().getTokenId())
+                .body(jsonObject)
+                .post(&quot;https://dev.maycur.com/api/web/ctrip/unification_switch&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response response = given().accept(&quot;application/json&quot;).contentType(ContentType.JSON)
+                .header(&quot;entCode&quot;,&quot;EC1704131UT5KW00&quot;)
+                .header(&quot;tokenId&quot;,auth.adminLogin().getTokenId())
+                .body(jsonObject)
+                .post(&quot;https://dev.maycur.com/api/web/ctrip/unification_switch&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testdata/meiya/meiyaBillParam.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/MeiyaBillStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/JourneyPropsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/mapper/MeiyaBillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="43" column="115" selection-start-line="43" selection-start-column="115" selection-end-line="43" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/dto/MeiyaBillParamDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testdata/meiya/meiyaConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripOrderStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/MeiyaEntInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/front/mapper/MeiyaEntInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/EmployeePropsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CEmployeePropsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CJourneyPropsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/CtripConfigDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/MeiyaEntInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/CtripEntInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/TMCNoApprovalScopeDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/front/mapper/CtripEntInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/FanjiaConfigDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/front/mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/front/mapper/FanjiaEntInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="115" selection-start-line="3" selection-start-column="115" selection-end-line="3" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/FanjiaEntInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/FanjiaStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4731">
+          <caret line="249" column="12" selection-start-line="249" selection-start-column="12" selection-end-line="256" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/pojo/FanjiaEntInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/SqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/api/steps/CtripSettlementBillStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/MeiyaConfigDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/MeiyaStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/mapper/CtripEntInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/ConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/CtripStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/CtripStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/runtime/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testdata/mobile/loginParam.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/ResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/EnterpriseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/EntDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/AuthLoginDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/ResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/dto/AuthResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthResultDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/dto/AuthLoginDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/pojo/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/mobile/steps/AuthStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/common/util/PasswordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maycur/thirdapitest/front/steps/auth/AuthStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (third_api_test)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>third_api_test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

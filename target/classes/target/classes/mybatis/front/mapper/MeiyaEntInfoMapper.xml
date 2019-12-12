@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maycur.thirdapitest.front.mapper.MeiyaEntInfoMapper">
+    <select id="getEntInfo" parameterType="string">
+        select quartz_sync_employee,employee_contains_mobile,employee_contains_email,employee_contains_department,
+          employee_contains_rank,employee_contains_subsidiary,hotel_booking,flight_booking,authorize_type,
+          journey_contains_department,journey_contains_subsidiary,journey_contains_companion,employee_contains_dept_cost_center,
+          restrict_city_hotel,restrict_city_flight,monthly_check_order,recon_bill_hotel,recon_bill_flight,unify_reimburse_hotel,
+          unify_reimburse_flight,ent_reimburse_cycle,sync_approver
+          from meiya_ent_info where ent_code = {#entCode,jdbcType=VARCHAR};
+    </select>
+</mapper>

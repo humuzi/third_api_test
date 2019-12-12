@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.api.mapper;
+package com.maycur.thirdapitest.api.dto;
 
 import lombok.Data;
 

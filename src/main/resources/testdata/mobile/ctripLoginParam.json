@@ -1,0 +1,12 @@
+{
+  "AccessUserId": "180110",
+  "EmployeeId": "0003",
+  "Token": "5de2155873fa2e134c026f21",
+  "Appid": "180110",
+  "site": "",
+  "Language":"zh-cn",
+  "AppID": "180110",
+  "AppKey": "180110",
+  "InitPage":"FlightSearch",
+  "Callback": "https://ct.ctrip.com/m"
+}

@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.util;
+package com.maycur.thirdapitest.common.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

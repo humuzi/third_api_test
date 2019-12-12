@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.front.dto;
+package com.maycur.thirdapitest.front.pojo;
 
 
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.Data;
  * Create by HuQiuYue on 2019-11-12
  */
 @Data
-public class MeiyaEntInfoDto {
+public class MeiyaEntInfo {
     private Boolean quartzSyncEmployee;
     private Boolean employeeContainsMobile;
     private Boolean employeeContainsEmail;
@@ -29,5 +29,4 @@ public class MeiyaEntInfoDto {
     private Boolean unifyReimHotel;
     private Integer reimCycle;
     private Boolean syncApprover;
-
 }

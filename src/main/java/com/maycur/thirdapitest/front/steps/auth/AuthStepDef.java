@@ -1,7 +1,7 @@
 package com.maycur.thirdapitest.front.steps.auth;
 
 import com.maycur.thirdapitest.front.dto.AuthLoginDto;
-import com.maycur.thirdapitest.front.runtime.LoginUser;
+import com.maycur.thirdapitest.common.runtime.LoginUser;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.json.JSONObject;
@@ -18,28 +18,20 @@ import static io.restassured.RestAssured.given;
  * Create by HuQiuYue on 2019-04-10
  */
 
-@ContextConfiguration(locations = "classpath:spring-mybatis.xml")
+@ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})
 public class AuthStepDef extends AbstractTestNGSpringContextTests{
 
     @Autowired
     private LoginUser loginUser;
 
 
-    /**
-     * 管理员登录
-     * @return
-     */
-
-
-    @Test(groups = {"xigua"})
-    public void adminLogin() {
+    @Test(groups = {"muzi"})
+    public void loginWeb() {
 
         JSONObject jsonObject = new JSONObject().put("userName", "18367148256").put("password", "123456").put("lang","zh");
         Response response = given().contentType(ContentType.JSON).accept("application/json")
                 .body(jsonObject.toString())
                 .post("https://dev.maycur.com/api/web/auth/login");
-
-        System.out.println(response.getStatusCode());
 
         AuthLoginDto result = response.getBody().as(AuthLoginDto.class);
         loginUser.setUserCode(result.getData().getUserCode());

@@ -1,0 +1,19 @@
+{
+  "memberDtos":[
+    {
+      "entCode":"EC1704131UT5KW00",
+      "unificationSwitchType":"CONFIRM_PERSON_UNIFICATION",
+      "userCode":"UI18040313768S1X",
+      "name":"小花",
+      "subAccount":null,
+      "confirmPerson":{
+        "userCode":"UI1704171GD4OXKW",
+        "name":"大客户aw",
+        "eId":"00011",
+        "email":"805144666@qq.com"
+      },
+      "confirmPerson2":null
+    }
+  ],
+  "type":"CONFIRM_PERSON_UNIFICATION"
+}

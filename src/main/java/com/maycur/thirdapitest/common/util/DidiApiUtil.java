@@ -1,4 +1,4 @@
-package com.maycur.thirdapitest.util;
+package com.maycur.thirdapitest.common.util;
 
 import io.restassured.response.Response;
 import org.json.JSONObject;

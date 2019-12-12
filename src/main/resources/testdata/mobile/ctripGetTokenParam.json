@@ -1,0 +1,12 @@
+{
+  "feeTypeGroupTag": "Airfare",
+  "requestUserCode": "UI18040313768S1W",
+  "forCorp": 0,
+  "journeyNo": "PFD1911281F6P2D8G",
+  "plainCabin": "ECONOMY",
+  "flightWay": "ROUND",
+  "startDate": "2019-12-06",
+  "city1Code": "domestic-ZH1-ZH1_0-ZH1_0_00",
+  "city2Code": "domestic-ZH9-ZH9_4-ZH9_4_01",
+  "endDate": "2019-12-08"
+}
